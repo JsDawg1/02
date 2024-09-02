@@ -1,0 +1,192 @@
+@font-face {
+    font-family: customFont01;
+    src: url("assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: customFont02;
+    src: url("assets/fonts/Roboto-Regular.ttf");
+}
+html, body{
+    padding:0px;
+    border:0px;
+    margin:0px;
+    background-color: rgb(39, 31, 50);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  .whiteDiv {
+    background-color: whitesmoke;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row; /* Align children side by side */
+    justify-content: space-between; /* Distribute space between children */
+    align-items: stretch; /* Make children stretch to fit the container's height */
+}
+
+.lft {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.ryt {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30px;
+    padding-right: 25px;
+    width: 50%; /* Ensure this matches with the width of .lft */
+    height: 100%; /* Stretch to match the height of .whiteDiv */
+}
+
+
+
+.lftHead {
+    font-family: customFont01;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding-top: 5%;
+    max-width: 350px; /* Ensure this matches with #lftBodyP */
+    margin: 0 auto; /* Center the h1 within its container */
+}
+
+#lftBodyP {
+    font-family: customFont02;
+    padding-left: 14px; /* Adjust to match padding or remove it */
+    max-width: 350px; /* Same as .lftHead */
+    margin: 0 auto; /* Center the p within its container */
+    text-align: center; /* Align text similar to h1 */
+}
+
+#lftUl li {
+    font-family: customFont02;
+    list-style-image: url("assets/images/icon-list.svg");
+    padding-top: 10px;
+}
+
+
+.bg-Image{
+    background-image: url("assets/images/illustration-sign-up-desktop.svg");    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    width:25vw;
+    height: 70vh;
+     
+}
+
+
+.email{
+    font-family: customFont02;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailText{
+    font-size: 15px;
+    margin-left: 20px;
+    
+}
+
+#emailInput{
+    font-family: customFont02;
+    max-width: 300px;
+    margin-left:20px;
+    height:35px;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1.2px solid rgb(176, 176, 176);
+    outline: none;
+    cursor: pointer;
+    padding-left: 2vw;
+  
+}
+
+#emailInput:hover{
+    border:1.5px solid black;
+}
+
+
+#submitForm{
+    font-family: customFont02;
+    margin-top:15px;
+    margin-left: 20px;
+    height:50px;
+    max-width: 310px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    border:0px solid black;
+    outline: none;
+    box-shadow: 0px 0px;
+    cursor:pointer;
+    background: black;
+}
+
+#submitForm:hover{
+    background: linear-gradient(to right, #ff3399 0%, #ff6600 100%);
+    box-shadow: 0 4px 8px rgba(255, 51, 153, 0.5), 0 4px 8px rgba(255, 102, 0, 0.5);
+
+}
+
+.thanksDiv {
+    height: 60vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 20px;
+    font-family: customFont01;
+    font-size: 20px;
+    margin-top: 0px; /* Set to 0 or a smaller value to reduce space above */
+    display: none;
+    padding: 20px; /* Optional: Add padding if needed for content spacing */
+}
+
+.thanksbody {
+    max-width: 450px;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+.headImg {
+    background-image: url("assets/images/icon-success.svg");
+    background-repeat: no-repeat;
+    background-size: contain; /* Ensure the image scales well */
+    height: 50px;
+    width:50px;
+    margin-left: 20px;
+    margin-top: 10px; /* Reduce this value to decrease space above the image */
+}
+
+
+#submitThanks{
+    height: 40px;
+    width: 200px;
+    font-family: customFont02;
+    margin-top:15px;
+    margin-left: 20px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    border:0px solid black;
+    outline: none;
+    box-shadow: 0px 0px;
+    cursor:pointer;
+    background: black;
+    margin-left: 50px;
+}
+#submitThanks:hover{
+    background: linear-gradient(to right, #ff3399 0%, #ff6600 100%);
+    box-shadow: 0 4px 8px rgba(255, 51, 153, 0.5), 0 4px 8px rgba(255, 102, 0, 0.5);
+
+}
+
+#thanksModifyP{
+    font-family: customFont02;
+    font-size: 15px;
+}
