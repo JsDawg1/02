@@ -40,6 +40,7 @@ html, body{
     padding-right: 25px;
     width: 50%; /* Ensure this matches with the width of .lft */
     height: 100%; /* Stretch to match the height of .whiteDiv */
+    background-image: url("illustration-sign-up-desktop.svg")
 }
 
 
