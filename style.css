@@ -39,8 +39,9 @@ html, body{
     padding-top: 30px;
     padding-right: 25px;
     width: 50%; /* Ensure this matches with the width of .lft */
-    height: 100%; /* Stretch to match the height of .whiteDiv */
-    background-image: url("illustration-sign-up-desktop.svg")
+    height: 90%; /* Stretch to match the height of .whiteDiv */
+    background-image: url("illustration-sign-up-desktop.svg");
+    margin-top: 10px;
 }
 
 
@@ -70,8 +71,7 @@ html, body{
 }
 
 
-.bg-Image{
-    background-image: url("illustration-sign-up-desktop.svg");    
+.bg-Image{   
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
