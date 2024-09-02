@@ -1,10 +1,10 @@
 @font-face {
     font-family: customFont01;
-    src: url("assets/fonts/Roboto-Bold.ttf");
+    src: url("Roboto-Bold.ttf");
 }
 @font-face {
     font-family: customFont02;
-    src: url("assets/fonts/Roboto-Regular.ttf");
+    src: url("Roboto-Regular.ttf");
 }
 html, body{
     padding:0px;
@@ -64,13 +64,13 @@ html, body{
 
 #lftUl li {
     font-family: customFont02;
-    list-style-image: url("assets/images/icon-list.svg");
+    list-style-image: url("icon-list.svg");
     padding-top: 10px;
 }
 
 
 .bg-Image{
-    background-image: url("assets/images/illustration-sign-up-desktop.svg");    
+    background-image: url("illustration-sign-up-desktop.svg");    
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -154,7 +154,7 @@ html, body{
 }
 
 .headImg {
-    background-image: url("assets/images/icon-success.svg");
+    background-image: url("icon-success.svg");
     background-repeat: no-repeat;
     background-size: contain; /* Ensure the image scales well */
     height: 50px;
