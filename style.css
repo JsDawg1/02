@@ -22,7 +22,8 @@ html, body{
     height: 80vh;
     border-radius: 20px;
     display: flex;
-    flex-direction: row; /* Align children side by side */
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between; /* Distribute space between children */
     align-items: stretch; /* Make children stretch to fit the container's height */
 }
@@ -50,6 +51,7 @@ html, body{
     font-family: customFont01;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     font-size: 25px;
     padding-top: 5%;
     max-width: 350px; /* Ensure this matches with #lftBodyP */
