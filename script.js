@@ -16,7 +16,7 @@
 
     function showWhiteDiv(){
          
-        whiteDiv.style.display = "block";
+        whiteDiv.style.display = "flex";
         thanksDiv.style.display = "none";
     }
     // Add event listeners to the buttons
